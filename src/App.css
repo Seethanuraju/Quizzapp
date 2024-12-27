@@ -1,0 +1,91 @@
+.container{
+  height: 100vh;
+  width: 100vw;
+  background-color:#D2E4E1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  flex-direction: column;
+}
+.card{
+  width:600px;
+  height:350px;
+  background-color: #fdf3d3;
+  border-radius: 12px;
+  padding:20px;
+}
+li{
+  list-style: none;
+  background-color: aliceblue;
+  width: 25%;
+  padding: 5px;
+  border-radius: 6px;
+}
+li:hover{
+  background-color: aqua;
+  cursor: pointer;
+}
+.option{
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+.final{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#answer{
+  text-align: center;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8; 
+  color: #333; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+center {
+  text-align: center;
+}
+
+
+.final {
+  text-align: center;
+  background-color: #ffffff; 
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  max-width: 400px;
+  margin: auto;
+}
+
+.final h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: #2c3e50; 
+}
+
+
+#answer {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #16a085; 
+  background-color: #ecf9f4; 
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+
+.final:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
